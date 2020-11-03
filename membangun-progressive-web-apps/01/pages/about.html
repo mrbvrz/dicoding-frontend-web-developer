@@ -27,30 +27,29 @@
 <div class="message">
     <div class="container" data-aos="slide-up" data-aos-duration="1000">
         <div class="row">
-            <form class="col s12" name="message" method="POST" data-netlify="true">>
+            <form class="col s12" name="message" method="POST" netlify>>
                 <h4 class="center">Get in touch</h4>
                 <p class="flow-text center">Feel free to provide advice and support by sending the message below.</p>
                 <div class="row">
                     <div class="input-field col l6 m6 s12">
-                        <input id="first_name" type="text" class="validate">
+                        <input id="first_name" name="first_name" type="text" class="validate">
                         <label for="first_name">First Name</label>
                     </div>
                     <div class="input-field col l6 m6 s12">
-                        <input id="last_name" type="text" class="validate">
+                        <input id="last_name" name="last_name" type="text" class="validate">
                         <label for="last_name">Last Name</label>
                     </div>
                     <div class="input-field col s12">
-                        <input id="email" type="email" class="validate">
+                        <input id="email" name="email" type="email" class="validate">
                         <label for="email">Email</label>
                     </div>
                     <div class="input-field col s12">
-                        <textarea id="messages" class="materialize-textarea"></textarea>
+                        <textarea id="messages" name="messages" class="materialize-textarea"></textarea>
                         <label for="messages">Messages</label>
                     </div>
                     <div class="col">
-                        <button class="btn send waves-effect waves-light indigo lighten-2" type="submit"
-                            name="action">Submit
-                            <i class="fas fa-paper-plane"></i>
+                        <button class="btn send waves-effect waves-light indigo lighten-2" type="submit">
+                            Submit<i class="fas fa-paper-plane"></i>
                         </button>
                     </div>
                 </div>

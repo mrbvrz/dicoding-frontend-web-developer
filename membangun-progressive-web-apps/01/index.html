@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Game of Thrones</title>
+    <meta name="description" content="My first PWA" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="apple-touch-icon" href="images/icon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/icon/favicon-16x16.png">
+    <link rel="mask-icon" href="/images/icon/maskable_icon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <meta name="msapplication-TileColor" content="#7986cb">
+    <meta name="theme-color" content="#7986cb" />
+</head>
+
+<body>
+    <!-- Navigasi -->
+    <nav class="indigo lighten-2" role="navigation">
+        <div class="nav-wrapper container">
+            <a href="#" class="brand-logo" id="logo-container">Game <span class="tilt">of</span> Thrones</a>
+            <a href="#" class="sidenav-trigger" data-target="nav-mobile">☰</a>
+
+            <ul class="topnav right hide-on-med-and-down"></ul>
+            <ul class="sidenav" id="nav-mobile"></ul>
+        </div>
+    </nav>
+
+    <!-- Akhir Navigasi -->
+    <main>
+        <div id="body-content"></div>
+    </main>
+
+    <footer class="indigo lighten-2">
+        <div class="footer-copyright">
+            <div class="container white-text">
+                © 2020 Hasan Suryaman
+                <a class="right" href="https://twitter.com/mrbvrz" target="_blank" rel="noreferrer"><i class="fab fa-twitter"></i></a>
+                <a class="right" href="https://hasansuryaman.com/" rel="noreferrer" target="_blank"><i class="fas fa-globe"></i></a>
+                <a class="right" href="https://github.com/mrbvrz" target="_blank" rel="noreferrer" ><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+        </div>
+    </footer>
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/materialize.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/pace.min.js"></script>
+    <script src="https://kit.fontawesome.com/454848ce4c.js" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+    <script>
+        // REGISTER SERVICE WORKER
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker
+                    .register('/sw.js')
+                    .then(reg => console.log('Service Worker: Registered'))
+                    .catch(err => console.log(`Service Worker: Error: ${err}`));
+            });
+        } else {
+            console.log('ServiceWorker is not supported by this browser.');
+        }
+    </script>
+
+</body>
+
+</html>

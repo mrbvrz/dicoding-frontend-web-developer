@@ -1,0 +1,221 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+.brand-logo{
+    font-size: 24px !important;
+    font-weight: 600;
+}
+
+.tilt {
+    font-weight: 400;
+    font-style: italic;
+    font-size: 18px;
+    font-family: 'EB Garamond', serif;
+}
+
+.parallax-container {
+    height: 500px;
+}
+
+.prlx-img{
+    background-size: cover!important;
+}
+
+.flow-text{
+    font-size: 18px;
+}
+
+h1{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.img-circle{
+    border-radius: 50%!important;
+}
+
+.table-text{
+    font-size: 16px;
+}
+
+.card-content{
+    padding: 14px 18px!important;
+}
+
+.card-title{
+    font-size: 18px!important;
+}
+
+.carousel{
+    top: -30px!important;
+}
+
+.prlx-foot{
+    height: 300px;
+}
+
+.img-me{
+    height: 130px;
+    margin-bottom: 30px!important;
+}
+
+.i{
+    color: #7986cb!important;
+    padding-bottom: 30px;
+}
+
+.name{
+    margin: 40px 0 20px 0;
+    font-size: 20px;
+}
+
+.actor{
+    margin: 30px 0;
+    height: 350px;
+    background-color: #F8F8F8;
+}
+
+.message{
+    margin-top: 50px;
+    padding: 30px 0;
+    background-color: #F8F8F8;
+}
+
+.about {
+    padding: 20px 0;
+    margin-bottom: -50px;
+    background-color:#e8eaf6;
+}
+
+.about-app{
+    margin-bottom: 50px;
+}
+
+.responsive-img{
+    margin: 30px 0;
+}
+
+.img-border{
+    border-radius: 5px;
+}
+
+.error-box{
+    margin: auto;
+    border-radius: 5px;
+    width: 400px;
+    height: 150px;
+    background-color: chartreuse;
+}
+
+.valign-wrapper {
+    height: 95%;
+    align-items: center;
+}
+
+.header-img{
+    height: 130px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    filter: invert(100%);
+}
+
+.fab, .fas {
+    margin-left: 10px;
+    color: white;
+}
+
+.prlx-overlay{
+    background: linear-gradient(#8c8c8c87 50%, #7986cb 100%) !important;
+}
+
+.prlx-overlay-header {
+    background: linear-gradient(#7986cb 0%, #8c8c8c87 100%) !important;
+}
+
+.error{
+    margin: auto;
+    width: 50%;
+    font-size: 26px;
+    font-weight: 900;
+}
+
+.send{
+    width: 180px;
+    height: 40px;
+}
+
+.img-center {
+    display: block;
+    margin: 0 auto;
+}
+
+footer{
+    padding: 20px 0;
+}
+
+/* PACE */
+.pace {
+  -webkit-pointer-events: none;
+  pointer-events: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+.pace-inactive {
+  display: none;
+}
+
+.pace .pace-progress {
+  background: #80cbc4;
+  position: fixed;
+  z-index: 2000;
+  top: 0;
+  right: 100%;
+  width: 100%;
+  height: 2px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .brand-logo{
+        font-size: 20px!important;
+    }
+
+    .tilt{
+        font-size: 16px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    .flow-text {
+        font-size: 16px;
+    }
+
+    .card-title {
+        font-size: 20px !important;
+    }
+
+    .prlx-foot {
+        height: 280px;
+    }
+
+    .img-circle {
+        border-radius: 50% !important;
+    }
+
+    .header-img {
+        height: 80px;
+    }
+}

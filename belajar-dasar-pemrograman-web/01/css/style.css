@@ -367,6 +367,10 @@ nav ul li a:hover::after {
   padding: 0 auto;
 }
 
+.music-spt iframe{
+    border-radius: 5px;
+}
+
 .album-img img {
   border-radius: 5px;
 }

@@ -2,7 +2,7 @@
 
 Kurikulum disusun oleh Dicoding dan pelaku industri di bidang Web Development. Siswa dipersiapkan untuk menjadi Front-End Web Developer sesuai standar kebutuhan industri. 
 
-Learning Path **Front-End Web Developer** ini didapatkan dari program beasiswa [BDD Kemenparekraf 2020](https://bdd.kemenparekraf.go.id/).
+Learning Path **Front-End Web Developer** ini didapatkan dari program beasiswa [BDD Kemenparekraf 2020](https://bdd.kemenparekraf.go.id/), [BDD Kemenparekraf 2023](https://bdd.kemenparekraf.go.id/).
 .
 ## Learning Path
 

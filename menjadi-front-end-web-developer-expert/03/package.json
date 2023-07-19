@@ -2,7 +2,7 @@
   "name": "taste-lab",
   "version": "1.0.0",
   "description": "TasteLab - Restaurant Apps Starter Project",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
     "start-dev": "webpack-dev-server --config webpack.dev.js",
     "build": "webpack --config webpack.prod.js",

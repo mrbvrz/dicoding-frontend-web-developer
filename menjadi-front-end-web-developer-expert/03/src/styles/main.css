@@ -191,7 +191,7 @@ nav .nav-list .nav-item a:hover {
   margin-left: auto;
   padding: 16px;
   border-radius: 6px;
-  background-color: #9db2bf;
+  background-color: #27374d;
   color: white;
   border: 0px;
   font-weight: 500;
@@ -200,7 +200,7 @@ nav .nav-list .nav-item a:hover {
 }
 
 .hero .hero-description .btn-hero-section .btn-hero:hover {
-  background-color: #27374d;
+  background-color: #9db2bf;
 }
 
 .content-section {
